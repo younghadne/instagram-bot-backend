@@ -1,0 +1,62 @@
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'web_app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 993-955-152
+127.0.0.1 - - [28/Apr/2026 15:12:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:12:11] "GET /socket.io/?EIO=4&transport=polling&t=PtLWP1N HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:12:11] "GET /socket.io/?EIO=4&transport=polling&t=PtLWP1_.0&sid=7ZI94zwow9MYo-xIAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:12:11] "GET /socket.io/?EIO=4&transport=polling&t=PtLWP2K&sid=7ZI94zwow9MYo-xIAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:12:17] "POST /socket.io/?EIO=4&transport=polling&t=PtLWP1_&sid=7ZI94zwow9MYo-xIAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:17:11] "GET /socket.io/?EIO=4&transport=websocket&sid=7ZI94zwow9MYo-xIAAAA HTTP/1.1" 200 -
+ * Detected change in '/Users/hadene/Downloads/instagram-bot-website 2/web_app.py', reloading
+ * Restarting with stat
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Debugger is active!
+ * Debugger PIN: 993-955-152
+127.0.0.1 - - [28/Apr/2026 15:25:04] "GET /socket.io/?EIO=4&transport=polling&t=PtLZLrw HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:25:04] "GET /socket.io/?EIO=4&transport=polling&t=PtLZLsH&sid=79TTK26bODo44pL4AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:25:04] "GET /socket.io/?EIO=4&transport=polling&t=PtLZLsd&sid=79TTK26bODo44pL4AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:25:11] "POST /socket.io/?EIO=4&transport=polling&t=PtLZLsG&sid=79TTK26bODo44pL4AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:26:23] "GET /socket.io/?EIO=4&transport=websocket&sid=79TTK26bODo44pL4AAAA HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:26:28] "GET /socket.io/?EIO=4&transport=polling&t=PtLZgKQ HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:26:28] "POST /socket.io/?EIO=4&transport=polling&t=PtLZgOk&sid=zhxJCJ8zpuGO8Lt1AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:26:29] "GET /socket.io/?EIO=4&transport=polling&t=PtLZgUJ&sid=zhxJCJ8zpuGO8Lt1AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:26:34] "GET /socket.io/?EIO=4&transport=polling&t=PtLZhZz&sid=zhxJCJ8zpuGO8Lt1AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:26:34] "GET /socket.io/?EIO=4&transport=polling&t=PtLZhlr&sid=zhxJCJ8zpuGO8Lt1AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:26:43] "GET /socket.io/?EIO=4&transport=polling&t=PtLZjpX&sid=zhxJCJ8zpuGO8Lt1AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:28:24] "GET /socket.io/?EIO=4&transport=websocket&sid=zhxJCJ8zpuGO8Lt1AAAC HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:30:10] "GET /socket.io/?EIO=4&transport=polling&t=PtLaWXf HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:30:10] "POST /socket.io/?EIO=4&transport=polling&t=PtLaWZO&sid=iRpI5I0npBUrB4OrAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:30:10] "GET /socket.io/?EIO=4&transport=polling&t=PtLaWZf&sid=iRpI5I0npBUrB4OrAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:30:10] "GET /socket.io/?EIO=4&transport=polling&t=PtLaWam&sid=iRpI5I0npBUrB4OrAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:30:10] "GET /socket.io/?EIO=4&transport=polling&t=PtLaWbV&sid=iRpI5I0npBUrB4OrAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:31:04] "GET /socket.io/?EIO=4&transport=websocket&sid=iRpI5I0npBUrB4OrAAAE HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:35:02] "GET /socket.io/?EIO=4&transport=polling&t=PtLbdqG HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:35:02] "POST /socket.io/?EIO=4&transport=polling&t=PtLbdqr&sid=5_5uS6DqxI9j5ZEDAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:35:02] "GET /socket.io/?EIO=4&transport=polling&t=PtLbdqs&sid=5_5uS6DqxI9j5ZEDAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:35:02] "GET /socket.io/?EIO=4&transport=polling&t=PtLbdr9&sid=5_5uS6DqxI9j5ZEDAAAG HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 15:35:05] "GET /socket.io/?EIO=4&transport=websocket&sid=5_5uS6DqxI9j5ZEDAAAG HTTP/1.1" 200 -
+ * Detected change in '/Users/hadene/Downloads/instagram-bot-website 2/web_app.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/Users/hadene/Downloads/instagram-bot-website 2/web_app.py", line 21, in <module>
+    socketio = SocketIO(app, cors_allowed_origins="*", async_mode="eventlet")
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/flask_socketio/__init__.py", line 187, in __init__
+    self.init_app(app, **kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/flask_socketio/__init__.py", line 243, in init_app
+    self.server = socketio.Server(**self.server_options)
+                  ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/socketio/base_server.py", line 34, in __init__
+    self.eio = self._engineio_server_class()(**engineio_options)
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/engineio/base_server.py", line 94, in __init__
+    raise ValueError('Invalid async_mode specified')
+ValueError: Invalid async_mode specified
+[18:58:26] ✅ Loaded saved session as @younghadene1

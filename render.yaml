@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: instagram-bot
+    runtime: docker
+    healthCheckPath: /health
+    envVars:
+      - key: FLASK_SECRET_KEY
+        generateValue: true
+      - key: FLASK_ENV
+        value: production

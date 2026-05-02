@@ -1,0 +1,10 @@
+name = "instagram-bot"
+main = "web_app.py"
+compatibility_date = "2024-04-24"
+
+[vars]
+ENVIRONMENT = "production"
+
+[[routes]]
+pattern = "instagram-bot.yourdomain.com"
+custom_domain = true
