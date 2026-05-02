@@ -1,0 +1,37 @@
+INFO:geventwebsocket.handler:127.0.0.1 - - [2026-05-02 18:13:29] "GET /health HTTP/1.1" 200 165 0.000881
+INFO:geventwebsocket.handler:127.0.0.1 - - [2026-05-02 18:13:39] "GET /health HTTP/1.1" 200 165 0.001895
+INFO:geventwebsocket.handler:127.0.0.1 - - [2026-05-02 18:13:53] "GET /health HTTP/1.1" 200 165 0.001377
+INFO:geventwebsocket.handler:127.0.0.1 - - [2026-05-02 18:13:53] "GET /health HTTP/1.1" 200 165 0.000614
+ERROR:web_app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/hadene/Downloads/instagram-bot/instagram-bot-backend/venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/hadene/Downloads/instagram-bot/instagram-bot-backend/venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/hadene/Downloads/instagram-bot/instagram-bot-backend/venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/hadene/Downloads/instagram-bot/instagram-bot-backend/venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/hadene/Downloads/instagram-bot/instagram-bot-backend/web_app.py", line 331, in index
+    return render_template('index.html')
+  File "/Users/hadene/Downloads/instagram-bot/instagram-bot-backend/venv/lib/python3.14/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/hadene/Downloads/instagram-bot/instagram-bot-backend/venv/lib/python3.14/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hadene/Downloads/instagram-bot/instagram-bot-backend/venv/lib/python3.14/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/hadene/Downloads/instagram-bot/instagram-bot-backend/venv/lib/python3.14/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/hadene/Downloads/instagram-bot/instagram-bot-backend/venv/lib/python3.14/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/hadene/Downloads/instagram-bot/instagram-bot-backend/venv/lib/python3.14/site-packages/flask/templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hadene/Downloads/instagram-bot/instagram-bot-backend/venv/lib/python3.14/site-packages/flask/templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+INFO:geventwebsocket.handler:127.0.0.1 - - [2026-05-02 18:13:54] "GET / HTTP/1.1" 500 401 0.008264
